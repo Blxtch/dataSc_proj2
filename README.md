@@ -6,7 +6,7 @@ Polarity (how positive or negative the text is)
 
 Subjectivity (how subjective or opinionated the text is)
 
-A sentiment label: "positif", "négatif", or "neutre"
+A sentiment label: "positif", "négatif", or "neutre" (positive, negative, neutral)
 
 It then calculates the average polarity of all posts, prints it, and saves all data in a CSV file (reddit_sentiment.csv) including the post title, score, subreddit, polarity, subjectivity, sentiment, and URL.
 
