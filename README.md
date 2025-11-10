@@ -1,5 +1,3 @@
-Reddit Sentiment Analyzer
-
 Reddit sentiment analyzer, based on online resources originally built for the Twitter API, which are now outdated. I targeted Reddit instead, which still has a free and accessible API.
 
 The code fetches Reddit posts related to a given query and performs basic sentiment analysis on the post titles using TextBlob. It connects to Reddit via the praw API, searches the 50 most relevant posts in all subreddits, and computes:
